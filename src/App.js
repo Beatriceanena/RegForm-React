@@ -1,7 +1,8 @@
-// import React, {useState,useEffect} from 'react';
+import React, {useState,useEffect} from 'react';
 // import { useState } from 'react';
 import './App.css';
-import Form from './form'
+// import Form from './form'
+import Users from './users.js'
 
 function App() {
   // // const [count, setCount]=useState(0);
@@ -25,7 +26,8 @@ function App() {
      <button>
       <button onClick={() => setCount(count + 1)}>Click Me</button>
      </button> */}
-       <Form/> 
+       <Users/> 
+       {/* <Forms/>  */}
     </div>
   );
 }
